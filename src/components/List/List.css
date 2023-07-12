@@ -1,0 +1,86 @@
+.page-content {
+    margin: 25px 5%;
+}
+.page-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-left: 15px;
+    font-size: 40px;
+}
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dbdfe2;
+    min-width: 320px;
+}
+.list-item-button {
+    min-width: 75px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #3d4144;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+.list-item-button-edit:hover {
+    color: #0087FD;
+    border: 1px solid #0087FD
+}
+.list-item-button-delete:hover {
+    color: #E33D3D;
+    border: 1px solid #E33D3D;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+}
+.list-item-data {
+    padding: 5px 10px;
+}
+.list-item-data > p {
+    display: flex;
+    font-size: 20px;
+    margin: 10px
+}
+.list-item-data > .list-item-name {
+    font-size: 24px;
+}
+
+/*Edit Page Styles*/
+.list-item-edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    font-size: 20px;
+    max-width: 350px;
+}
+.list-item-edit-input, .list-item-edit-form > p {
+    margin: 0 20px 10px;
+    min-width: 320px;
+}
+.list-item-edit-input > input {
+    max-width: 300px;
+    padding: 7px 10px 7px 5px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dbdfe2;
+    font-size: 16px;
+}
+.list-item-edit-input > input:focus-visible {
+    /*border: 2px solid #0087FD;*/
+    outline: 1px auto #0087FD;
+
+}
+.list-item-edit-input > label {
+    margin: 0 10px 3px 0;
+    display: block;
+}
+.list-item-edit-actions {
+    display: flex;
+    justify-content: flex-end;
+}
